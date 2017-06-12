@@ -10,3 +10,7 @@
 var x=2
 var y=4
 console.log (x + y);
+
+var name1="Sally"
+var name2="Harry"
+console.log (name1 + " met " + name2);
