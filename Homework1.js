@@ -33,3 +33,12 @@ if (num < 100){
 } else {
   alert (" your variable " + num + " is greater than 100 ");
 }
+
+//Declare a function that takes a name as an argument and tells the user what name they've entered.
+//Try running it after it has been declared.
+
+var password = "Julie";
+
+if (password === "Julie"){
+  alert (" You've entered " + password);
+}
