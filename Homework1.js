@@ -1,10 +1,4 @@
 
-  function addNums(){
-    var var1 = document.getElementById('var1').value;
-    var var2 = document.getElementById('var2').value;
-    document.getElementById('result').innerHTML = (parseInt(var1) + parseInt (var2));
-  }
-
 //Challenge 1: Create a script with 2 variables, each assigned to a number.
 //Add them together and output the result to the console.
 // Now do the same with two strings.
@@ -26,3 +20,16 @@ var cameras = [slr, mediumFormat];
 cameras
 cameras [2][0]
 cameras [1][1]
+
+//Write a script that checks if a variable is less than 100.
+//If it is, alert the user that their variable is less than 100.
+//If it is not alert the user of what the value was and that it was greater
+//than 100.
+
+var num = 4
+
+if (num < 100){
+  alert ("your variable is les than 100");
+} else {
+  alert ("your variable" + num + "is greater than 100");
+}
