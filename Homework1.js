@@ -29,7 +29,7 @@ cameras [1][1]
 var num = 4
 
 if (num < 100){
-  alert ("your variable is les than 100");
+  alert ("your variable is less than 100");
 } else {
-  alert ("your variable" + num + "is greater than 100");
+  alert (" your variable " + num + " is greater than 100 ");
 }
