@@ -34,11 +34,25 @@ if (num < 100){
   alert (" your variable " + num + " is greater than 100 ");
 }
 
-//Declare a function that takes a name as an argument and tells the user what name they've entered.
-//Try running it after it has been declared.
+//Declare a function that takes a name as an argument and //tells the user what name they've entered.
 
-var password = "Julie";
+  var text = document.getElementById('username').value;{
+    alert (text);
+  }
+  //I know this isn't right, but I don't know the answer.
+  
 
-if (password === "Julie"){
-  alert (" You've entered " + password);
+//Declare a function that depending upon which virtual 'door' was entered and tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
+
+
+function openThisDoor(doorNum) {
+  if (doorNum ===1) {
+    return alert("You won a chocolate bar!");
+  } else if (doorNum === 2){
+    return alert("You won a panda!");
+  } else if (doorNum === 3){
+    return alert("You won nothing!");
+  } else {
+    return alert ("not a valid door");
+  }
 }
